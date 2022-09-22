@@ -6,13 +6,35 @@ nav a.brand-name  {
   text-decoration: none;
   color: #FD841F;
 }
-nav a.brand-name:hover  {
-  text-decoration: none;
-  color: #E14D2A;
+button a.pesan-tiket  {
+  text-decoration: none !important;
+  color: white;
 }
 button.btn-login:hover {
   color: #FD841F !important;
   border: solid 0.5px #FD841F !important;
+}
+button.btn-pesan:hover a.pesan-tiket{
+  color: #FD841F !important;
+}
+button a.pesan-tiket-promo  {
+  text-decoration: none !important;
+  color: white;
+}
+button.btn-pesan-skrg:hover a.pesan-tiket-promo{
+  color: #FD841F !important;
+}
+@media screen and (max-width: 820px){
+  .container-mobile {
+    width: 85% !important;
+  }
+}
+button a.kembali {
+  text-decoration: none !important;
+  color: white !important;
+}
+.btn-bawah {
+  width: 30% !important;
 }
 .icon-pointer {
   cursor: pointer;

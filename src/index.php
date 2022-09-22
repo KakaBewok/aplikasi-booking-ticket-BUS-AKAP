@@ -68,16 +68,16 @@
                 >
                   <ul class="navbar-nav responsive me-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link" href="#">Harga</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="#">Kelas Bus</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#">Kontak</a>
                     </li>
                   </ul>
                 </div>
@@ -96,21 +96,21 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Beranda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Harga</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Kelas Bus</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Kontak</a>
               </li>
             </ul>
             <div class="gap-3">
-              <button class="btn btn-default btn-no-fill">Sign Up</button>
-              <button class="btn btn-fill text-white btn-login">Log In</button>
+              <button class="btn btn-default btn-no-fill">Daftar</button>
+              <button class="btn btn-fill text-white btn-login">Masuk</button>
             </div>
           </div>
         </nav>
@@ -128,11 +128,15 @@
               <div
                 class="d-flex flex-sm-row flex-column align-items-center mx-lg-0 mx-auto justify-content-center gap-3"
               >
+                
                 <button
-                  class="btn d-inline-flex mb-md-0 btn-try text-white btn-login"
+                  class="btn d-inline-flex mb-md-0 btn-try text-white btn-pesan"
                 >
+                <a href="form-pemesanan.php" class="pesan-tiket">
                   Pesan Tiket
+                </a>
                 </button>
+                
               </div>
             </div>
             <!-- Right Column -->
@@ -288,8 +292,10 @@
                 </p>
               </div>
               <div class="card-btn-space">
-                <button class="btn btn-card text-white btn-login">
+                <button class="btn btn-card text-white btn-pesan-skrg">
+                <a href="form-pemesanan.php" class="pesan-tiket-promo">
                   Pesan Sekarang
+                </a>
                 </button>
                 <button class="btn btn-outline">Ingatkan nanti</button>
               </div>
@@ -313,16 +319,16 @@
                 </div>
                 <nav class="list-unstyled">
                   <li class="list-space">
-                    <a href="" class="list-menu">Home</a>
+                    <a href="" class="list-menu">Beranda</a>
                   </li>
                   <li class="list-space">
-                    <a href="" class="list-menu">Pricing</a>
+                    <a href="" class="list-menu">Harga</a>
                   </li>
                   <li class="list-space">
-                    <a href="" class="list-menu">About Us</a>
+                    <a href="" class="list-menu">Kelas Bus</a>
                   </li>
                   <li class="list-space">
-                    <a href="" class="list-menu">Contact</a>
+                    <a href="" class="list-menu">Kontak</a>
                   </li>
                 </nav>
               </div>
