@@ -71,7 +71,7 @@
                       <a class="nav-link" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Harga</a>
+                      <a class="nav-link" href="tabel-harga.php">Harga</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Kelas Bus</a>
@@ -99,7 +99,7 @@
                 <a class="nav-link" href="#">Beranda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Harga</a>
+                <a class="nav-link" href="tabel-harga.php">Harga</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Kelas Bus</a>

@@ -15,6 +15,7 @@
     >
       <h3>Form Pemesanan Tiket</h3></br>
       <a class="btn btn-primary" href="index.php" role="button">Beranda</a>
+      <a class="btn btn-warning ms-3" href="tabel-harga.php" role="button">Daftar Harga</a>
       <form class="mt-4" method="post" action="form-pemesanan.php">
         <!-- nama -->
         <div class="mb-4">
@@ -252,6 +253,7 @@
         </button>
       </form>
     </div>
+    <p class="text-center">Copyright © 2022 Noprizal</p>
     <script src="./style/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>

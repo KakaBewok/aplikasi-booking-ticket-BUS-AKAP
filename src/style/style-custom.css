@@ -33,6 +33,10 @@ button a.kembali {
   text-decoration: none !important;
   color: white !important;
 }
+div.container {
+  width: 70%;
+  margin-top: 80px;
+}
 .btn-bawah {
   width: 30% !important;
 }

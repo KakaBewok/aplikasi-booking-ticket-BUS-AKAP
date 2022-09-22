@@ -1,6 +1,6 @@
 <?php
 // variabel koneksi database
-$conn_db = mysqli_connect("localhost", "root", "", "db_penumpang_bus");
+$conn_db = mysqli_connect("localhost", "root", "", "db_rbus");
 
 // fungsi untuk melakukan query menampilkan seluruh data mahasiswa
 function query($query){
@@ -17,7 +17,7 @@ function query($query){
 
     return $rows;
 }
-// fungsi untuk menambahkan data
+// fungsi untuk menambahkan data ke database
 function tambah($data, $harga_tiket_str, $hasil_total_pembayaran){
     global $conn_db;
     // data dari form dimasukan ke dalam variabel dan difilter dengan method
