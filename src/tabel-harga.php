@@ -17,7 +17,7 @@
       <br />
       <br />
       <table
-        class="table table-striped table-hover border border-1 rounded tabel-harga"
+        class="table table-striped table-hover border border-1 rounded tabel-harga shadow-sm"
       >
         <tr>
           <th>No.</th>

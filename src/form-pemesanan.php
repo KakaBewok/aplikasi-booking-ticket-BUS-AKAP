@@ -60,13 +60,8 @@
         <!-- kelas penumpang -->
         <div class="mb-4">
           <label for="kelas" class="form-label">Kelas Penumpang</label><br />
-          <select
-            name="kelas-penumpang"
-            id="kelas"
-            name="kelas-penumpang"
-            required
-          >
-            <option value="">-- Pilih Kelas --</option>
+          <select id="kelas" class="form-select form-select-sm" aria-label=".form-select-sm example" name="kelas-penumpang">
+            <option selected>--Pilih kelas penumpang--</option>
             <option value="Ekonomi">Ekonomi</option>
             <option value="Bisnis">Bisnis</option>
             <option value="Eksekutif">Eksekutif</option>
@@ -82,6 +77,7 @@
             class="form-control"
             id="tanggalberangkat"
             name="tanggal-keberangkatan"
+            style="width: 18%"
             required
           />
         </div>
@@ -197,12 +193,7 @@
       }
     
     
-    } //memeriksa apakah tombol batal sudah ditekan
-    elseif(isset($_POST['batal'])){
-      echo "<script>
-                document.location.href = 'form-pemesanan.php';
-            </script>";
-    }
+    } 
     else {
       $harga_tiket_str = 0;
       $hasil_total_pembayaran = 0;
@@ -244,14 +235,9 @@
         >
           Pesan Tiket
         </button>
-        <button
-          type="reset"
-          class="btn btn-warning mb-3 ms-4 btn-bawah"
-          name="batal"
-        >
-          Batal
-        </button>
+        <a class="btn btn-warning mb-3 ms-4 btn-bawah" href="<?php $_SERVER['PHP_SELF']; ?>" role="button" name="batal">Batal</a>
       </form>
+      <br>
     </div>
     <p class="text-center">Copyright © 2022 Noprizal</p>
     <script src="./style/bootstrap/js/bootstrap.js"></script>

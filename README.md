@@ -8,6 +8,7 @@
 1. Formulir Pemesanan Tiket
 2. Daftar Harga Tiket Bus dengan masing-masing kelas
 3. Gallery gambar bus
+4. Tampilan yang responsive di smartphone, tablet dan dekstop
 
 - Berikut struktur folder dalam program ini:
   📦src
