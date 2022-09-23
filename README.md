@@ -13,9 +13,20 @@
 - Berikut struktur folder dalam program ini:
   📦src
   ┣ 📂img
+  ┃ ┣ 📂buses
+  ┃ ┃ ┣ 📜agra.jpg
+  ┃ ┃ ┣ 📜arim.jpeg
+  ┃ ┃ ┣ 📜dieng.jpg
+  ┃ ┃ ┣ 📜harapan.jpg
+  ┃ ┃ ┣ 📜karunia.jpg
+  ┃ ┃ ┗ 📜rukun.jpg
   ┃ ┣ 📜bus-header.png
   ┃ ┣ 📜bus2.webp
   ┃ ┗ 📜tiket.png
+  ┣ 📂pages
+  ┃ ┣ 📜form-pemesanan.php
+  ┃ ┣ 📜kelas-bus.php
+  ┃ ┗ 📜tabel-harga.php
   ┣ 📂style
   ┃ ┣ 📂bootstrap
   ┃ ┃ ┣ 📂css
@@ -25,10 +36,8 @@
   ┃ ┃ ┃ ┣ 📜bootstrap.js
   ┃ ┃ ┃ ┗ 📜bootstrap.min.js
   ┃ ┗ 📜style-custom.css
-  ┣ 📜form-pemesanan.php
   ┣ 📜function.php
-  ┣ 📜index.php
-  ┗ 📜tabel-harga.php
+  ┗ 📜index.php
 
 ## Requirements
 

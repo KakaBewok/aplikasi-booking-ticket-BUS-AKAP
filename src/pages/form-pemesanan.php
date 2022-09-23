@@ -146,8 +146,13 @@
       echo "<br/><br/>";
       //menampilkan total bayar sesuai dengan kelas penumpang
       echo "<label class='form-label'>Total Pembayaran : <span name='total-bayar'>". $hasil_total_pembayaran . "</span></label>";
+
+      echo "<script>";
+      echo   "alert('Total pembayaran anda di Kelas $kelas_penumpang sebesar : $hasil_total_pembayaran');";
+      echo "</script>";
     } //memeriksa apakah tombol pesan-tiket sudah ditekan
     elseif(isset($_POST['pesan-tiket'])){
+
       // inisialisasi variabel
       $nama_lengkap = $_POST['nama-lengkap'];
       $nomor_identitas = $_POST['nomor-identitas'];
@@ -178,21 +183,25 @@
       //menampilkan total bayar sesuai dengan kelas penumpang
       echo "<label class='form-label'>Total Pembayaran : <span name='total-bayar'>". $hasil_total_pembayaran . "</span></label>";
 
-      // cek apakah data berhasil ditambahkan atau tidak
-      if(tambah($_POST, $harga_tiket_str, $hasil_total_pembayaran) > 0){
+      function alert($kelas_penumpang, $hasil_total_pembayaran){
         echo " <script>
-                alert('Data berhasil disimpan.');
+                alert(`Total yang harus dibayarkan pada kelas $kelas_penumpang : $hasil_total_pembayaran.`);
               </script>";
-      } else {
-        echo "<script>
-                alert('Data GAGAL disimpan.');
-              </script>";
-              // document.location.href = 'index.php';
-              // window.location.reload();
-              // window.location.href = window.location.href;
-      }
-    
-    
+        };
+
+        alert($kelas_penumpang, $hasil_total_pembayaran);
+        
+        // cek apakah data berhasil ditambahkan atau tidak
+        if(tambah($_POST, $harga_tiket_str, $hasil_total_pembayaran) > 0){
+          echo "<script>
+                  alert('Data pesanan berhasil disimpan.');
+                </script>";
+        } else {
+          echo "<script>
+                  alert('Data GAGAL disimpan.');
+                </script>";
+        }
+      
     } 
     else {
       $harga_tiket_str = 0;
@@ -240,6 +249,7 @@
       <br>
     </div>
     <p class="text-center">Copyright © 2022 Noprizal</p>
+
     <script src="../style/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
