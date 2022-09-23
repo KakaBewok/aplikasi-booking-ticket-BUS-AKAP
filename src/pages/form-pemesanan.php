@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="./style/style-custom.css" />
+    <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../style/style-custom.css" />
     <title>Form-Pemesanan</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
       style="width: 50%"
     >
       <h3>Form Pemesanan Tiket</h3></br>
-      <a class="btn btn-primary" href="index.php" role="button">Beranda</a>
+      <a class="btn btn-primary" href="../index.php" role="button">Beranda</a>
       <a class="btn btn-warning ms-3" href="tabel-harga.php" role="button">Daftar Harga</a>
       <form class="mt-4" method="post" action="form-pemesanan.php">
         <!-- nama -->
@@ -77,7 +77,7 @@
             class="form-control"
             id="tanggalberangkat"
             name="tanggal-keberangkatan"
-            style="width: 18%"
+            style="width: 42%"
             required
           />
         </div>
@@ -114,7 +114,7 @@
         
 <?php
     // import fungsi dari file function
-    require('function.php');
+    require('../function.php');
     //memeriksa apakah tombol hitung sudah ditekan
     if(isset($_POST['hitung-total-bayar'])){
       // inisialisasi variabel
@@ -240,6 +240,6 @@
       <br>
     </div>
     <p class="text-center">Copyright © 2022 Noprizal</p>
-    <script src="./style/bootstrap/js/bootstrap.js"></script>
+    <script src="../style/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>

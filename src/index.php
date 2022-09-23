@@ -71,10 +71,10 @@
                       <a class="nav-link" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="tabel-harga.php">Harga</a>
+                      <a class="nav-link" href="./pages/tabel-harga.php">Harga</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="kelas-bus.php">Kelas Bus</a>
+                      <a class="nav-link" href="./pages/kelas-bus.php">Kelas Bus</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Kontak</a>
@@ -99,10 +99,10 @@
                 <a class="nav-link" href="#">Beranda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tabel-harga.php">Harga</a>
+                <a class="nav-link" href="./pages/tabel-harga.php">Harga</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="kelas-bus.php">Kelas Bus</a>
+                <a class="nav-link" href="./pages/kelas-bus.php">Kelas Bus</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Kontak</a>
@@ -132,7 +132,7 @@
                 <button
                   class="btn d-inline-flex mb-md-0 btn-try text-white btn-pesan"
                 >
-                <a href="form-pemesanan.php" class="pesan-tiket">
+                <a href="./pages/form-pemesanan.php" class="pesan-tiket">
                   Pesan Tiket
                 </a>
                 </button>
@@ -293,7 +293,7 @@
               </div>
               <div class="card-btn-space">
                 <button class="btn btn-card text-white btn-pesan-skrg">
-                <a href="form-pemesanan.php" class="pesan-tiket-promo">
+                <a href="./pages/form-pemesanan.php" class="pesan-tiket-promo">
                   Pesan Sekarang
                 </a>
                 </button>

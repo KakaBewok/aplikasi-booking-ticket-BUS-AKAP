@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="./style/style-custom.css" />
+    <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../style/style-custom.css" />
     <title>Kelas Bus</title>
   </head>
   <body>
     <div class="container">
-      <a class="btn btn-primary" href="index.php" role="button">Beranda</a>
+      <a class="btn btn-primary" href="../index.php" role="button">Beranda</a>
       <a class="btn btn-warning ms-3" href="form-pemesanan.php" role="button"
         >Pesan Tiket</a
       >
@@ -46,10 +46,10 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/buses/arim.jpeg" class="d-block w-100" alt="..." />
+            <img src="../img/buses/arim.jpeg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="./img/buses/dieng.jpg" class="d-block w-100" alt="..." />
+            <img src="../img/buses/dieng.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -101,13 +101,13 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./img/buses/harapan.jpg"
+              src="../img/buses/harapan.jpg"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
-            <img src="./img/buses/agra.jpg" class="d-block w-100" alt="..." />
+            <img src="../img/buses/agra.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -159,13 +159,13 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./img/buses/karunia.jpg"
+              src="../img/buses/karunia.jpg"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
-            <img src="./img/buses/rukun.jpg" class="d-block w-100" alt="..." />
+            <img src="../img/buses/rukun.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -193,6 +193,6 @@
       <br /><br />
       <br /><br />
     </div>
-    <script src="./style/bootstrap/js/bootstrap.js"></script>
+    <script src="../style/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
