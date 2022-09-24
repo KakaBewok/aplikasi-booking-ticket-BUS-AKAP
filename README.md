@@ -5,8 +5,8 @@
 
 - Program Pemesanan Tiket Bus Online ini dibuat dengan bahasa pemrograman PHP murni dengan styling menggunakan CSS murni dan CSS Bootstrap 5.0. Program ini memiliki fitur:
 
-1. Formulir Pemesanan Tiket
-2. Daftar Harga Tiket Bus dengan masing-masing kelas
+1. Formulir pemesanan tiket dan daftar pesanan
+2. Daftar harga tiket bus dengan masing-masing kelas
 3. Gallery gambar bus
 4. Tampilan yang responsive di smartphone, tablet dan dekstop
 
@@ -22,10 +22,13 @@
   ┃ ┃ ┗ 📜rukun.jpg
   ┃ ┣ 📜bus-header.png
   ┃ ┣ 📜bus2.webp
+  ┃ ┣ 📜rizal.jpg
+  ┃ ┣ 📜rizal1.jpg
   ┃ ┗ 📜tiket.png
   ┣ 📂pages
   ┃ ┣ 📜form-pemesanan.php
   ┃ ┣ 📜kelas-bus.php
+  ┃ ┣ 📜kontak.php
   ┃ ┗ 📜tabel-harga.php
   ┣ 📂style
   ┃ ┣ 📂bootstrap

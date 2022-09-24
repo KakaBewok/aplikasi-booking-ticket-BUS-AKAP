@@ -111,7 +111,7 @@
           </div>
         </div>
         <hr size="6" width="100%" align="left" color="darkblue">
-        
+<!-- script untuk memproses pesanan -->
 <?php
     // import fungsi dari file function
     require('../function.php');
@@ -198,10 +198,9 @@
                 </script>";
         } else {
           echo "<script>
-                  alert('Data GAGAL disimpan.');
+                  alert('Data gagal disimpan.');
                 </script>";
         }
-      
     } 
     else {
       $harga_tiket_str = 0;
@@ -248,6 +247,49 @@
       </form>
       <br>
     </div>
+
+
+    <div
+      class="container mt-5 mb-5 border rounded-3 p-4 shadow-lg container-mobile"
+      style="width: 50%"
+    >
+    <h3>Daftar Pesanan</h3></br>
+<!-- script untuk menampilkan daftar pesanan -->
+<?php
+    //koneksi db dengan localhost
+    $conn_db = mysqli_connect("localhost", "root", "", "db_rbus");
+    //script query
+    $query = 'SELECT * FROM penumpang_bus ORDER BY id DESC';
+    //melakukan query data dari db
+    $result = mysqli_query($conn_db, $query);
+
+    $rows = [];
+
+    //memecah data menjadi array asosiatif
+    while($row = mysqli_fetch_assoc($result)){
+        $rows[] = $row;
+    }
+    
+    //melakukan pengulangan untuk menampilkan data
+    $i= 1;
+    foreach($rows as $p){
+    echo        "<ul class='list-group'>";
+    echo          "<li class='list-group-item active' aria-current='true'><strong>NOMOR PEMESANAN</strong> : " . $i; " </li>";
+    echo          "<li class='list-group-item'><strong>NAMA PEMESAN</strong>             :</br> " . $p['Nama Pemesan'];  " </li>";
+    echo          "<li class='list-group-item'><strong>NOMOR IDENTITAS (NIK)</strong>    :</br> " . $p['Nomor Identitas'];  " </li>";
+    echo          "<li class='list-group-item'><strong>NO. HP</strong>                   :</br> " . $p['No. HP'];  " </li>";
+    echo          "<li class='list-group-item'><strong>KELAS PENUMPANG</strong>          :</br> " . $p['Kelas Penumpang'];  " </li>";
+    echo          "<li class='list-group-item'><strong>TANGGAL KEBERANGKATAN</strong>    :</br> " . $p['Tanggal Keberangkatan'];  " </li>";
+    echo          "<li class='list-group-item'><strong>JUMLAH PENUMPANG</strong>         :</br> " . $p['Jumlah Penumpang'];  " </li>";
+    echo          "<li class='list-group-item'><strong>JUMLAH PENUMPANG LANSIA</strong>  :</br>(Khusus penumpang lansia diberikan diskon 10%)</br> " . $p['Jumlah Penumpang Lansia'];  " </li>";
+    echo          "<li class='list-group-item'><strong>HARGA TIKET</strong>              :</br> " . $p['Harga Tiket'];  " </li>";
+    echo          "<li class='list-group-item'><strong>TOTAL BAYAR</strong>              :</br> " . $p['Total Bayar'];  " </li>";
+    echo        "</ul></br></br>";
+    $i++;
+    }
+?>
+    </div>
+
     <p class="text-center">Copyright © 2022 Noprizal</p>
 
     <script src="../style/bootstrap/js/bootstrap.js"></script>

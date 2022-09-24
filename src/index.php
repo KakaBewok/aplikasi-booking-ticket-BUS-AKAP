@@ -77,7 +77,7 @@
                       <a class="nav-link" href="./pages/kelas-bus.php">Kelas Bus</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Kontak</a>
+                      <a class="nav-link" href="./pages/kontak.php">Kontak</a>
                     </li>
                   </ul>
                 </div>
@@ -105,7 +105,7 @@
                 <a class="nav-link" href="./pages/kelas-bus.php">Kelas Bus</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kontak</a>
+                <a class="nav-link" href="./pages/kontak.php">Kontak</a>
               </li>
             </ul>
             <div class="gap-3">
@@ -154,7 +154,8 @@
         </div>
       </div>
     </section>
-
+    
+    <!-- MAIN -->
     <section class="h-100 w-100 bg-white" style="box-sizing: border-box">
       <div
         class="content-2-1 container-xxl mx-auto p-0 position-relative"
@@ -269,7 +270,6 @@
         </div>
       </div>
     </section>
-
     <section class="h-100 w-100 bg-white" style="box-sizing: border-box">
       <div
         class="content-2-1 container-xxl mx-auto p-0 position-relative"
@@ -305,6 +305,7 @@
       </div>
     </section>
 
+    <!-- FOOTER -->
     <section class="h-100 w-100 bg-white" style="box-sizing: border-box">
       <div
         class="footer-2-1 container-xxl mx-auto position-relative p-0"
