@@ -270,23 +270,23 @@
         $rows[] = $row;
     }
     
-    //melakukan pengulangan untuk menampilkan data
-    $i= 1;
-    foreach($rows as $p){
-    echo        "<ul class='list-group'>";
-    echo          "<li class='list-group-item active' aria-current='true'><strong>NOMOR PEMESANAN</strong> : " . $i; " </li>";
-    echo          "<li class='list-group-item'><strong>NAMA PEMESAN</strong>             :</br> " . $p['Nama Pemesan'];  " </li>";
-    echo          "<li class='list-group-item'><strong>NOMOR IDENTITAS (NIK)</strong>    :</br> " . $p['Nomor Identitas'];  " </li>";
-    echo          "<li class='list-group-item'><strong>NO. HP</strong>                   :</br> " . $p['No. HP'];  " </li>";
-    echo          "<li class='list-group-item'><strong>KELAS PENUMPANG</strong>          :</br> " . $p['Kelas Penumpang'];  " </li>";
-    echo          "<li class='list-group-item'><strong>TANGGAL KEBERANGKATAN</strong>    :</br> " . $p['Tanggal Keberangkatan'];  " </li>";
-    echo          "<li class='list-group-item'><strong>JUMLAH PENUMPANG</strong>         :</br> " . $p['Jumlah Penumpang'];  " </li>";
-    echo          "<li class='list-group-item'><strong>JUMLAH PENUMPANG LANSIA</strong>  :</br>(Khusus penumpang lansia diberikan diskon 10%)</br> " . $p['Jumlah Penumpang Lansia'];  " </li>";
-    echo          "<li class='list-group-item'><strong>HARGA TIKET</strong>              :</br> " . $p['Harga Tiket'];  " </li>";
-    echo          "<li class='list-group-item'><strong>TOTAL BAYAR</strong>              :</br> " . $p['Total Bayar'];  " </li>";
-    echo        "</ul></br></br>";
-    $i++;
-    }
+      //melakukan pengulangan untuk menampilkan data
+      $i= 1;
+      foreach($rows as $p){
+      echo        "<ul class='list-group'>";
+      echo          "<li class='list-group-item active' aria-current='true'><strong>NOMOR PEMESANAN</strong> : " . $i; " </li>";
+      echo          "<li class='list-group-item'><strong>NAMA PEMESAN</strong>             :</br> " . $p['Nama Pemesan'];  " </li>";
+      echo          "<li class='list-group-item'><strong>NOMOR IDENTITAS (NIK)</strong>    :</br> " . $p['Nomor Identitas'];  " </li>";
+      echo          "<li class='list-group-item'><strong>NO. HP</strong>                   :</br> " . $p['No. HP'];  " </li>";
+      echo          "<li class='list-group-item'><strong>KELAS PENUMPANG</strong>          :</br> " . $p['Kelas Penumpang'];  " </li>";
+      echo          "<li class='list-group-item'><strong>TANGGAL KEBERANGKATAN</strong>    :</br> " . $p['Tanggal Keberangkatan'];  " </li>";
+      echo          "<li class='list-group-item'><strong>JUMLAH PENUMPANG</strong>         :</br> " . $p['Jumlah Penumpang'];  " </li>";
+      echo          "<li class='list-group-item'><strong>JUMLAH PENUMPANG LANSIA</strong>  :</br>(Khusus penumpang lansia diberikan diskon 10%)</br> " . $p['Jumlah Penumpang Lansia'];  " </li>";
+      echo          "<li class='list-group-item'><strong>HARGA TIKET</strong>              :</br> " . $p['Harga Tiket'];  " </li>";
+      echo          "<li class='list-group-item'><strong>TOTAL BAYAR</strong>              :</br> " . $p['Total Bayar'];  " </li>";
+      echo        "</ul></br></br>";
+      $i++;
+      }
 ?>
     </div>
 
