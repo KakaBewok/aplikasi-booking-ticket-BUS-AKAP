@@ -3,15 +3,17 @@
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
 
-- Program Pemesanan Tiket Bus Online ini dibuat dengan bahasa pemrograman PHP murni dengan styling menggunakan CSS murni dan CSS Bootstrap 5.0. Program ini memiliki fitur:
+- Program Pemesanan Tiket Bus Online ini dibuat dengan bahasa pemrograman PHP murni dengan styling menggunakan CSS murni dan Framework CSS Bootstrap 5.0. Program ini memiliki fitur:
 
-1. Formulir pemesanan tiket dan daftar pesanan
+1. Formulir pemesanan tiket dan daftar pesanan yang terhubung dengan DBMS MySQL
 2. Daftar harga tiket bus dengan masing-masing kelas
 3. Gallery gambar bus
 4. Tampilan yang responsive di smartphone, tablet dan dekstop
 
 - Berikut struktur folder dalam program ini:
   📦src
+  ┣ 📂db
+  ┃ ┗ 📜db_rbus.sql
   ┣ 📂img
   ┃ ┣ 📂buses
   ┃ ┃ ┣ 📜agra.jpg

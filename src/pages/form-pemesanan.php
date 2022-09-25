@@ -25,7 +25,7 @@
             class="form-control"
             id="nama"
             name="nama-lengkap"
-            placeholder="Noprizal"
+            placeholder="Muhammad Fajar Fathurahman"
             required
           />
         </div>
@@ -259,7 +259,7 @@
     //koneksi db dengan localhost
     $conn_db = mysqli_connect("localhost", "root", "", "db_rbus");
     //script query
-    $query = 'SELECT * FROM penumpang_bus ORDER BY id DESC';
+    $query = "SELECT * FROM penumpang_bus";
     //melakukan query data dari db
     $result = mysqli_query($conn_db, $query);
 
@@ -274,7 +274,7 @@
       $i= 1;
       foreach($rows as $p){
       echo        "<ul class='list-group'>";
-      echo          "<li class='list-group-item active' aria-current='true'><strong>NOMOR PEMESANAN</strong> : " . $i; " </li>";
+      echo          "<li class='list-group-item active' aria-current='true'><strong>NOMOR PEMESANAN</strong> : 0" . $i; " </li>";
       echo          "<li class='list-group-item'><strong>NAMA PEMESAN</strong>             :</br> " . $p['Nama Pemesan'];  " </li>";
       echo          "<li class='list-group-item'><strong>NOMOR IDENTITAS (NIK)</strong>    :</br> " . $p['Nomor Identitas'];  " </li>";
       echo          "<li class='list-group-item'><strong>NO. HP</strong>                   :</br> " . $p['No. HP'];  " </li>";

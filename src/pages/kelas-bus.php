@@ -193,6 +193,7 @@
       <br /><br />
       <br /><br />
     </div>
+    <p class="text-center">Copyright © 2022 Noprizal</p>
     <script src="../style/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
